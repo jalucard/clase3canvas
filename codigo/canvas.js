@@ -42,7 +42,7 @@ function dibujarGrilla(l)
 	
 	for(var linea=0;linea <= 300; linea++)
 	{
-		l.beginPath;
+		l.beginPath();
 		l.moveTo(0, linea * ancholinea);
 		l.lineTo(300, linea * ancholinea);
 		l.closePath();
@@ -51,7 +51,7 @@ function dibujarGrilla(l)
 	
 	for(var linea=0;linea <= 300; linea++)
 	{
-		l.beginPath;
+		l.beginPath();
 		l.moveTo(linea * ancholinea,0);
 		l.lineTo(linea * ancholinea, 300);
 		l.closePath();
