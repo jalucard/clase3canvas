@@ -1,0 +1,75 @@
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	background: url("../images/nube2.jpg");
+	font-family: "Open Sans", Arial;
+	text-align: center;
+}
+
+footer
+{
+	font-style: italic;
+	padding: 2px;
+}
+
+h1
+{
+	font-family: fantasy;
+	font-size: 2.2em;
+	opacity: 1;
+}
+
+header
+{
+	background: url("../images/HTML5.png") no-repeat 2%,
+				url("../images/CSS3.png") no-repeat 8%,
+				url("../images/js.png") no-repeat 14%;
+	background-color: CadetBlue;
+	background-size: 47px, 47px, 47px, 130px; 
+	opacity: 0.9;
+	margin: 0 0 25px 0;
+	padding: 0.5px;
+}
+
+footer
+{
+	font-style: italic;
+	padding: 2px;
+}
+
+#canvas1, #canvas2, #canvas3, #canvas4, #canvas5
+{
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.6) 5px 5px 10px;
+	display: inline-block;
+	margin: 18px;
+	vertical-align: top;
+}
+
+canvas
+{
+	transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+}
+
+canvas:hover
+{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+#icoface, #icotwit
+{
+	cursor: pointer;
+	display: inline-block;
+	height: 2.5em;
+	margin: 0 0.4em;
+	vertical-align: top;
+	width: 2.5em;
+}
