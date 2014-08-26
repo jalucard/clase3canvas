@@ -42,7 +42,7 @@ function dibujarGrilla(l)
 	
 	for(var linea=0;linea <= 300; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(0, linea * ancholinea);
 		l.lineTo(300, linea * ancholinea);
 		l.closePath();
@@ -51,7 +51,7 @@ function dibujarGrilla(l)
 	
 	for(var linea=0;linea <= 300; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(linea * ancholinea,0);
 		l.lineTo(linea * ancholinea, 300);
 		l.closePath();
@@ -66,7 +66,7 @@ function dibujarmalla(l)
 
 	for(var linea=0;linea <= 300; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(linea * ancholinea, 0);
 		l.lineTo(0, linea * ancholinea);
 		l.closePath();
@@ -76,7 +76,7 @@ function dibujarmalla(l)
 	var coordX=330;
 	for(var linea=0;linea <= 300; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(coordX-=ancholinea,0);
 		l.lineTo(300, linea * ancholinea);
 		l.closePath();
@@ -131,7 +131,7 @@ function dibujarforma(l)
 	var coordY= 150;
 	for(var linea=0;linea <= 15; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(linea * ancholinea,150);
 		l.lineTo(150, coordY-=ancholinea);
 		l.closePath();
@@ -141,7 +141,7 @@ function dibujarforma(l)
 	coordY=150;
 	for(var linea=0;linea <= 15; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(linea * ancholinea,150);
 		l.lineTo(150, coordY+=ancholinea);
 		l.closePath();
@@ -152,7 +152,7 @@ function dibujarforma(l)
 	coordY=150;
 	for(var linea=0;linea <= 15; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(coordX-=ancholinea,150);
 		l.lineTo(150, coordY-=ancholinea);
 		l.closePath();
@@ -163,7 +163,7 @@ function dibujarforma(l)
 	coordY=150;
 	for(var linea=0;linea <= 15; linea++)
 	{
-		l.beginPath();
+		l.beginPath;
 		l.moveTo(coordX-=ancholinea,150);
 		l.lineTo(150, coordY+=ancholinea);
 		l.closePath();
